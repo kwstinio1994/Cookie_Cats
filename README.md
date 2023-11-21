@@ -2,7 +2,7 @@
 
 ## Description
 This Streamlit application provides an in-depth analysis of player engagement in the mobile game Cookie Cats. The application delves into player retention, the number of game rounds played, and the variations in engagement across different game versions. 
-The project involves data quality checks, descriptive statistics, hypothesis testing, predictive modeling, and visualization of results. You can download the repository and run it directly or you can visit https://cookiecats-rkhl25hdzmyqqrx6ucyaay.streamlit.app/ and access this web app using your credentials.
+The project involves data quality checks, descriptive statistics, hypothesis testing, predictive modeling, and visualization of results. You can download the repository and run it directly or you can visit https://cookiecats-rkhl25hdzmyqqrx6ucyaay.streamlit.app/ and have a full access view of this web app without running the code.
 
 ## Installation
 To use this application, Python must be installed on your system. Follow these steps:
