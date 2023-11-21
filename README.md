@@ -25,38 +25,88 @@ No missing values found in the dataset.
 No duplicate rows found in the dataset.
 
 ### Basic Data Overview
-![image](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/3296354a-4e07-4b89-b955-5c4343d4ebaa)
-![image](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/57b16a38-2eb2-4ebc-8648-fc6bf0fa11d2)
-![image](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/3cce33b0-f3a8-469b-a09b-24ae02527ac5)
+Total Number of Players: 90189
 
-### Initial Data Visualizations
-![image](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/82db7749-2e51-4712-b555-0887f3a00534)
-![image](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/763bfb62-e0d4-4db3-abc8-e9a4048359c1)
+Average Game Rounds per Player: 51.87
+
+1-Day Retention Rate: 44.52%
+
+7-Day Retention Rate: 18.61%
+
+### Descriptive Statistics by Game Version
+![cookie_cats_1](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/0ef80e4b-7e4f-414d-9cd5-dbb14ffa82fd)
+![cookie_cats_2](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/3a1946ec-ee24-4a01-944e-0f3823efbc6b)
+
+## Initial Data Visualizations
+
+### Distribution of Game Rounds Played by Game Version
+![cookie_cats_3](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/1088da98-b9a7-4d3e-a502-51df7aee905d)
+
+### Exploratory Data Analysis
+
+![cookie_cats_4](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/1975d1f3-67c1-42f0-a9c1-019ec797b844)
 
 ## A/B Testing Analysis
-![image](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/a646ac0c-20c3-4e4b-b3a3-8fe295dee2d9)
-![image](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/895d16ab-93c6-463f-8569-ef295d1fcb48)
+### 1-Day Retention
+p-value: 0.0744
+
+Cohen's d: 0.0119
+
+Conclusion: The difference in 1-day retention between the two versions is not statistically significant.
+
+### 7-Day Retention
+p-value: 0.0016
+
+Cohen's d: 0.0211
+
+Conclusion: The difference in 7-day retention between the two versions is statistically significant.
+
+### Sum of Game Rounds Played
+p-value: 0.3729
+
+Cohen's d: 0.0059
+
+Conclusion: The difference in the sum of game rounds played between the two versions is not statistically significant.
+
+## Statistical Testing
+1-Day Retention T-Test Results: 
+T-statistic = 1.7840979256519656
+P-value = 0.07441111525563184
+
+The difference in 1-day retention between the two game versions is not statistically significant. This suggests that the game version might not have a significant impact on player retention.
 
 ## Enchanced A/B Testing Analysis using Bootstrap.
-![image](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/849df56a-124e-4f21-a6c4-58a3edf396b1)
+![cookie_cats_5](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/e166da64-1619-49b8-b571-0fc4224c49a7)
+
+Difference in 1-Day Retention Rate: 0.59%
+
+Difference in 7-Days Retention Rate: 0.82%
+
+Probability of higher 1-day retention when gate is at level 30: 95.80%
+
+Probability of higher 7-days retention when gate is at level 30: 99.90%
+
+## Evaluation and Recommendation
+Based on the A/B testing analysis, it appears more likely for players to retain longer when the gate is at level 30. 
+We recommend keeping or experimenting further with the gate at level 30 to improve 7-days retention rates.
 
 ## Predictive Modeling
-![image](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/4ea1f612-303b-4a80-b572-6d0d483193ff)
+![cookie_cats_6](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/96671ef0-aae8-4752-a324-dfcde1cc7b3a)
 
 ## User Input for Retention Prediction
-![image](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/241a7eca-8d20-4215-80d0-61ec13daea19)
+![cookie_cats_7](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/64e6180a-0fd8-438a-bedd-56770753a0f0)
 
 You can add enter the number of the played game rounds and the game version and get the Probability of returning after 7 days
 
 Example:
-![image](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/6e9594e6-830a-4b5a-9e80-e578d4a09f91)
+![cookie_cats_8](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/886c1420-6485-4586-89c3-166a8b90dc88)
 
 ## Interactive User Features
 Ability to filter data by sum of game rounds played
-![image](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/83facd3a-9c2a-4cf9-9c82-4abf9ac0d4b1)
+![cookie_cats_9](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/8b2ca4ca-4060-4c71-aa5a-b47e34aacf21)
 
 ## Data Quality Enhancements
-![image](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/dba58842-e183-4034-a7a0-5269ac16f512)
+![cookie_cats_10](https://github.com/kwstinio1994/Cookie_Cats/assets/151637921/6275c58a-7481-4337-9308-3f77d4e5cd4f)
 
 ## Conclusions and Recommendations
 Based on our analysis of the Cookie Cats data, we have observed several key insights:
