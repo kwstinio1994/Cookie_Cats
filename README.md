@@ -1,4 +1,4 @@
-# Cookie Cats Player Engagement Analysis
+# Cookie Cats - Player Engagement Analysis
 
 ## Description
 This Streamlit application provides an in-depth analysis of player engagement in the mobile game Cookie Cats. The application delves into player retention, the number of game rounds played, and the variations in engagement across different game versions. 
