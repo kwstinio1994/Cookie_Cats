@@ -7,7 +7,7 @@ The project involves data quality checks, descriptive statistics, hypothesis tes
 ## Installation
 To use this application, Python must be installed on your system. Follow these steps:
 
-```bash
+bash
 git clone https://github.com/kwstinio1994/Cookie_Cats.git
 cd Cookie_Cats
 pip install -r requirements.txt
