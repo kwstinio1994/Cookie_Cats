@@ -147,23 +147,6 @@ st.write(f'Cohen\'s d: {d_gamerounds:.4f}')
 st.write('Conclusion: The difference in the sum of game rounds played between the two versions is ' + 
          ('statistically significant.' if p_val_gamerounds < 0.05 else 'not statistically significant.'))
 
-
-# Displaying results
-st.subheader('1-Day Retention')
-st.write(f'p-value: {p_val_1_day:.4f}')
-st.write('Conclusion: The difference in 1-day retention between the two versions is ' + 
-         ('statistically significant.' if p_val_1_day < 0.05 else 'not statistically significant.'))
-
-st.subheader('7-Day Retention')
-st.write(f'p-value: {p_val_7_day:.4f}')
-st.write('Conclusion: The difference in 7-day retention between the two versions is ' + 
-         ('statistically significant.' if p_val_7_day < 0.05 else 'not statistically significant.'))
-
-st.subheader('Sum of Game Rounds Played')
-st.write(f'p-value: {p_val_gamerounds:.4f}')
-st.write('Conclusion: The difference in the sum of game rounds played between the two versions is ' + 
-         ('statistically significant.' if p_val_gamerounds < 0.05 else 'not statistically significant.'))
-
 # Statistical Testing
 st.header('Statistical Testing')
 # T-test for retention rates between different versions
